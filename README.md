@@ -16,7 +16,7 @@ oid reverseWord(
             st.push(str[i]); // character is pushed in to the stack
         else {
             while (st.isEmpty() ==
-                   false) { // if we encounter one of the previous character: ' ' , ' , ' , ' . '  we pop the stack
+                   false) { // if we encounter one of the previous character: ' ' . ' , ' ( ' ) '  etc. we pop the stack
                 reversFile << st.top();
                 st.pop();
             }
