@@ -30,3 +30,5 @@ oid reverseWord(
 ## How does ReverseWord works
 Each string from a string line that is entered as a parameter is pushed into a stack until one of the characters in the "if" statement is reached. Once one of those characters is reached the stack is popped - "written in a file". Then the character that resulted in the stack to be popped is written into the file. This will continue until the end of the string entered as a parameter.
 
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/25082236/97337887-337d4080-1857-11eb-9d50-ec12bf3df4aa.gif)
+
